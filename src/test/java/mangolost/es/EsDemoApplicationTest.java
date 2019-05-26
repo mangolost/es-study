@@ -19,7 +19,7 @@ public class EsDemoApplicationTest {
     @Test
     public void testImportAll() throws IOException {
 
-        esDataService.indexAllData();
+        esDataService.importAllData();
 
     }
 
