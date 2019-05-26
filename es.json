@@ -1,0 +1,29 @@
+//PUT index_area/_mapping
+{
+  "properties": {
+    "code": {
+      "type": "keyword"
+    },
+    "area_name": {
+      "type": "keyword"
+    },
+    "level": {
+      "type": "byte"
+    },
+    "size": {
+      "type": "float"
+    },
+    "population": {
+      "type": "float"
+    },
+    "gdp": {
+      "type": "float"
+    },
+    "gdp_rate": {
+      "type": "float"
+    },
+    "gdp_avg": {
+      "type": "float"
+    }
+  }
+}
